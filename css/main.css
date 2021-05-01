@@ -1,0 +1,324 @@
+@font-face {
+    font-family: "MullerBlack";
+    src: url("../fonts/MullerBlack.ttf");
+}
+
+@font-face {
+    font-family: "MullerBold";
+    src: url("../fonts/MullerBold.ttf");
+}
+
+@font-face {
+    font-family: "MullerExtraBold";
+    src: url("../fonts/MullerExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "MullerRegular";
+    src: url("../fonts/MullerRegular.ttf");
+}
+
+@font-face {
+    font-family: "MullerRegularItalic";
+    src: url("../fonts/MullerRegularItalic.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: MullerRegular, sans-serif;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#header-con {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#burger {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    display: block;
+    width: 85px;
+    margin-left: 8px;
+    font-size: 24px;
+    color: rgb(255, 196, 104);
+    font-family: MullerBlack, sans-serif;
+    line-height: 1.2;
+}
+
+#header-menu {
+    margin: 0 261px 0 248px;
+    display: flex;
+    justify-content: space-between;
+    width: 490px;
+}
+
+#header-menu svg {
+    display: none;
+}
+
+#header-menu a {
+    font-size: 16px;
+    color: rgb(164, 107, 0);
+    text-decoration: none;
+}
+
+/*-----------------main-----------------*/
+#main {
+}
+
+#main-con {
+    padding-top: 132px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-info {
+    max-width: 622px;
+}
+
+#main-info h1 {
+    font-size: 45px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: rgb(170, 142, 94);
+    font-weight: bold;
+    line-height: 1.222;
+    margin: 0;
+}
+
+#main-info h1 span {
+    color: #e4ad50;
+}
+
+#info-con {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info-title {
+    margin-top: 47px;
+    max-width: 292px;
+    display: flex;
+    align-items: center;
+}
+
+.info-text {
+    margin-left: 16px;
+}
+
+.info-text1 {
+    font-size: 16px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: rgb(228, 173, 80);
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.info-text2 {
+    font-size: 16px;
+    color: rgb(169, 143, 94);
+    margin-top: 10px;
+}
+
+#button {
+    margin-top: 60px;
+}
+
+.button {
+    background-color: rgb(255, 175, 24);
+    font-size: 16px;
+    font-family: "MullerBold", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 22px;
+    box-sizing: border-box;
+    color: rgb(56, 36, 0);
+    width: 224px;
+    display: inline-block;
+}
+
+/*----------------products----------------*/
+#products-con {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 161px;
+}
+
+#products-title {
+    font-size: 35px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(189, 152, 92);
+    text-align: center;
+}
+
+#products-items {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    width: 282px;
+    padding: 27px 20px 15px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.product .product-image {
+    height: 155px;
+}
+
+.product .product-title {
+    font-size: 18px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(56, 36, 0);
+    margin-top: 15px;
+}
+
+.product .product-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    height: 49px;
+    margin-top: 17px;
+}
+
+.product .product-button.button {
+    border: 0;
+    outline: 0;
+    margin-top: 15px;
+    padding: 17px;
+    width: 100%;
+}
+
+/*------------------order-------------------*/
+#order {
+    overflow: hidden;
+    /*скрытие контента за пределами рамки (скролл левою право)*/
+}
+
+#order-con {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 216px 0 115px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#order-text {
+    max-width: 384px;
+
+}
+
+#order-text-title {
+    font-size: 35px;
+    font-family: "MullerExtraBold", sans-serif;
+    line-height: 1.286;
+    text-align: left;
+    color: #b99150;
+}
+
+#order-text-title span {
+    color: rgb(255, 175, 24);
+}
+
+#order-text-text {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+    margin-top: 65px;
+}
+
+#order-form {
+    width: 330px;
+}
+
+#order-form div {
+    margin-bottom: 25px;
+}
+
+.error-input {
+    margin-bottom: -16px !important;
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+#order-form input, #adrress input, #phone input {
+    border: 1px solid rgb(185, 145, 80);;
+    background-color: rgb(255, 255, 255);
+    width: 328px;
+    padding: 23px;
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: 0;
+    margin-bottom: 2px;
+}
+
+::placeholder {
+    color: rgb(203, 168, 110);
+}
+
+#order-form .button {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+
+#order-image {
+    width: 282px;
+    position: relative;
+}
+
+#order-image img {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+/*-------------footer-------------*/
+#footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#footer-con {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer-text {
+    margin-left: 358px;
+    font-size: 12px;
+    color: rgb(186, 179, 179);
+}
+
